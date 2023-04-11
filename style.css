@@ -1,0 +1,158 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:azure ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    max-width: 1500px;
+    background-color:aliceblue;
+    /*background-image: linear-gradient(to right,aliceblue,blueviolet,darkviolet,brown,red);*/
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: black;
+}
+.header-contact{
+    float: right;
+    padding: 30px
+}
+.header-contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#parsonal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width:30%;
+    float:left;
+}
+.right-div {
+    width:70%;
+    float:left;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width:100%;
+    margin:20px auto;
+}
+.right-div h5{
+    float:left;
+}
+.right-div p {
+    float: left;
+}
+.table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    
+
+}
+.skill-table td{     
+    border:none;
+    text-align:left;
+}
+.Personal-table td {
+    border: none;
+    text-align: left;
+}
+.Reference-left{
+    float:left;
+    width:45%;
+}
+.Reference-right{
+    float:right;
+    width:45%;
+}
+.Reference-left h5 {
+    float: none;
+}
+.Reference-left p {
+    float:none;
+}
+.Reference-left a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Reference-left a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.Reference-right h5 {
+    float: none;
+}
+
+.Reference-right p {
+    float: none;
+}
+
+.Reference-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Reference-right a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.footer-class{
+    background-color:;
+    text-align:center;
+    padding:10px;
+}
+.footer-class a {
+    text-decoration: none;
+    margin:20px;
+    color: black;
+    font-weight: bold;
+}
+.footer-class a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+    .footer-class p {
+        margin: 20px;
+        color: black;
+        font-weight: bold;
+    }
